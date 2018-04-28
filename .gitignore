@@ -1,2 +1,4 @@
 # ignore models
 models
+.vs
+__pycache__
