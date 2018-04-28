@@ -75,7 +75,7 @@ for i in range(1,7):
 
 	saver = tf.train.Saver(net.trainable_collection)
 
-	saver.restore(sess, 'models/train/model.ckpt-0')
+	saver.restore(sess, 'models/train/model.ckpt-5000')
 
 	np_predict = sess.run(predicts, feed_dict={image: np_img})
 
