@@ -1,7 +1,6 @@
 # tensorflow-yolo
 
-### Require
-	tensorflow-1.0
+
 ### download pretrained model
 
 yolo_tiny: <a>https://drive.google.com/file/d/0B-yiAeTLLamRekxqVE01Yi1RRlk/view?usp=sharing</a>
@@ -70,4 +69,6 @@ python tools/train.py -c conf/train.cfg
 python demo.py
 ```
 
+![image](https://github.com/Dearbigdog/yolo/blob/master/tensorflow-yolo-python2.7/testcase/dog2.jpg)
 
+![image](https://github.com/Dearbigdog/yolo/blob/master/tensorflow-yolo-python2.7/testcase/dog2_out.jpg)
